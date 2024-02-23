@@ -6,9 +6,10 @@ import Counter from './components/Counter';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-
-      <StatusBar style="auto" />
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <HelloWorld />
+      <UserName username="John" />
+      <Counter />
     </View>
   );
 }

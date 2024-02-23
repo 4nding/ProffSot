@@ -1,17 +1,33 @@
 import React from 'react';
-import {Text, ScrollView, Image} from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
+import HelloWorldImage from '../components/hello-world.png';
 
-const App = () => {
+const HelloWorld = () => {
   return (
-    <ScrollView>
-        <Image
-            source={{
-            uri: 'https://i.pinimg.com/https://miro.medium.com/v2/resize:fit:1024/1*OohqW5DGh9CQS4hLY5FXzA.png/f5/64/46/f564468c10abbf3174c81485f5be702b.jpg',
-            }}
-            style={{width: 300, height: 200}}
-        />
-    </ScrollView>
+    <View style={styles.container}>
+      <Text style={styles.text}>Hello World!</Text>
+      <Image
+        source={HelloWorldImage}
+        style={styles.image}
+      />
+    </View>
   );
 };
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  text: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  image: {
+    width: 800,
+    height: 500,
+  }
+});
+
+export default HelloWorld;
