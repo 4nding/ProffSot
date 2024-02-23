@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 
 const GreetUser = ({ username }) => {
   return (
-    <Text>Hello, {username}!</Text>
+    <Text>Hello, Im  {username} </Text>
   );
 };
 
