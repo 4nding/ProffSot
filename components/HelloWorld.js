@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
-import HelloWorldImage from '../components/hello-world.png';
+import HelloWorldImage from '../assets/hello-world.png';
 
 const HelloWorld = () => {
   return (
