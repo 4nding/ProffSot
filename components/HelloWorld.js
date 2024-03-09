@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   image: {
-    width: 300,
+    width: 500,
     height: 200,
   }
 });

@@ -8,9 +8,9 @@ export default function App() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <HelloWorld />
-      <UserName username="Andre Vince" />
-      <UserName username="Sam Syrille" />
-      <UserName username="Jomar Jenisan" />
+      <UserName username="Casandra Casicas" />
+      <UserName username="Earl John Luchin" />
+      <UserName username="Jerlin Tagopa" />
       <Counter />
     </View>
   );
